@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / copied files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# C extensions
+*.so
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Environments
+.env
+venv/
+env/
+.venv/
+
+# Editors and IDEs
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# MyPy
+.mypy_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Miscellaneous
+/test-reports/
+*.log
+*.sqlite3
