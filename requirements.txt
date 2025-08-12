@@ -1,0 +1,5 @@
+apython-dotenv
+vertexai
+google-cloud-aiplatform
+google-auth
+google-adk
