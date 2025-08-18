@@ -1,5 +1,6 @@
-apython-dotenv
-vertexai
-google-cloud-aiplatform
+streamlit
+python-dotenv
 google-auth
+google-auth-oauthlib
+google-cloud-aiplatform
 google-adk

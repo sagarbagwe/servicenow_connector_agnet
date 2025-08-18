@@ -29,7 +29,7 @@ load_dotenv()
 PROJECT_ID = os.getenv("GOOGLE_CLOUD_PROJECT")
 LOCATION = os.getenv("GOOGLE_CLOUD_LOCATION", "us-central1")
 CONNECTION_NAME = os.getenv("CONNECTION_NAME")
-GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-1.5-pro")
+GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-pro")
 
 if not all([PROJECT_ID, LOCATION, CONNECTION_NAME, GEMINI_MODEL]):
     raise ValueError("Missing required environment variables. Please check your .env file.")
