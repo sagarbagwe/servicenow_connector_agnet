@@ -1,0 +1,17 @@
+curl -X POST \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     -H "Content-Type: application/json" \
+     -H "X-Goog-User-Project: sadproject2025" \
+     "https://discoveryengine.googleapis.com/v1alpha/projects/sadproject2025/locations/global/collections/default_collection/engines/servicenow-production-agen_1755488025561/assistants/default_assistant/agents" \
+     -d '{
+          "displayName": "ServiceNow Production Agent",
+          "description": "An agent that uses ADK and Application Integration to interact with ServiceNow.",
+          "adk_agent_definition": {
+            "tool_settings": {
+              "tool_description": "A helpful assistant for managing ServiceNow tasks like incidents, problems, and knowledge base articles."
+            },
+            "provisioned_reasoning_engine": {
+              "reasoning_engine": "projects/113207776071/locations/us-central1/reasoningEngines/7103575191153803264"
+            }
+          }
+        }'
